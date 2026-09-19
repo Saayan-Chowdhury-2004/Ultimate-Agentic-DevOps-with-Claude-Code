@@ -1,0 +1,9 @@
+# Terraform runtime files (providers/plugins cache — never commit)
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plan output
+*.tfplan
